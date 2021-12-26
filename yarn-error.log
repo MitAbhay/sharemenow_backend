@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Dell\AppData\Roaming\nvm\v16.9.1\node_modules\@sanity\cli\vendor\yarn install --json --non-interactive --ignore-engines --network-timeout 60000 --registry https://registry.npmjs.org
+
+PATH: 
+  C:\Users\Dell\AppData\Roaming\nvm\v16.9.1\node_modules\vendor;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\Dell\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Dell\AppData\Local\Programs\Python\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;c:";C:\Program Files\nodejs;C:\Program Files\Git LFS;C:\Program Files\dotnet\;C:\Program Files\nodejs;C:\Program Files\nodejs;C:\Ruby30-x64\bin;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;C:\Users\Dell\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Users\Dell\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\Dell\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Nmap;C:\Users\Dell\AppData\Roaming\nvm;C:\Program Files\heroku\bin;C:\Users\Dell\AppData\Local\gitkraken\bin;C:\Program Files\JetBrains\PyCharm 2021.2.3\bin;;C:\Users\Dell\AppData\Roaming\nvm\v16.9.1;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.9.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.npmjs.org
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "smn",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": "package.json",
+    "author": "ABHAY <leader.abhay002@gmail.com>",
+    "license": "UNLICENSED",
+    "scripts": {
+      "start": "sanity start",
+      "build": "sanity build"
+    },
+    "keywords": [
+      "sanity"
+    ],
+    "dependencies": {
+      "@sanity/base": "^2.23.2",
+      "@sanity/core": "^2.23.2",
+      "@sanity/default-layout": "^2.23.2",
+      "@sanity/default-login": "^2.23.2",
+      "@sanity/desk-tool": "^2.23.2",
+      "@sanity/vision": "^2.23.2",
+      "prop-types": "^15.7",
+      "react": "^17.0",
+      "react-dom": "^17.0",
+      "styled-components": "^5.2.0"
+    },
+    "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
